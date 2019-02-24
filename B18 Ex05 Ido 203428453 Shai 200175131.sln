@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamkaUI", "DamkaUI\DamkaUI.csproj", "{61D0284B-89BD-41FF-A645-A0D5D34516A7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C101CE98-BF20-45FF-963B-F3694FC89C15} = {C101CE98-BF20-45FF-963B-F3694FC89C15}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damka.Logic", "Damka.Logic\Damka.Logic.csproj", "{C101CE98-BF20-45FF-963B-F3694FC89C15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{236AA826-D1EE-4B02-AAEC-4B9383A8F883}"
+	ProjectSection(SolutionItems) = preProject
+		Exercise Checking Report.txt = Exercise Checking Report.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61D0284B-89BD-41FF-A645-A0D5D34516A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D0284B-89BD-41FF-A645-A0D5D34516A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D0284B-89BD-41FF-A645-A0D5D34516A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D0284B-89BD-41FF-A645-A0D5D34516A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C101CE98-BF20-45FF-963B-F3694FC89C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C101CE98-BF20-45FF-963B-F3694FC89C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C101CE98-BF20-45FF-963B-F3694FC89C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C101CE98-BF20-45FF-963B-F3694FC89C15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA77F4EC-5648-4E6A-9C7C-3C438D8B75A3}
+	EndGlobalSection
+EndGlobal
